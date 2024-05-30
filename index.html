@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Calculator</title>
+</head>
+<body>
+    <h1>Average Calculator</h1>
+    <form id="numberForm">
+        <label for="numberID">Enter Number ID (p, f, e, r):</label>
+        <input type="text" id="numberID" name="numberID" required>
+        <button type="submit">Calculate Average</button>
+    </form>
+    <div id="result">
+        <h2>Result</h2>
+        <p id="prevState"></p>
+        <p id="currState"></p>
+        <p id="numbers"></p>
+        <p id="average"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
